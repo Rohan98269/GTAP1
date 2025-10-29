@@ -17,6 +17,12 @@
 .navbar select {
   cursor: pointer;
 }
+.heading{
+  color: #581c87;
+}
+.heading-border{
+  border: 1px solid #581c87;
+}
 
 /* Make navbar clean and aligned for all screens */
 @media (max-width: 992px) {

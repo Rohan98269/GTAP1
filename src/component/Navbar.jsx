@@ -6,7 +6,7 @@ import "./Navbar.css";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark user-nav-bg px-4 py-3 ">
+    <nav className="navbar navbar-expand-lg navbar-dark user-nav-bg fixed-top px-4 py-3 ">
       <div className="container-fluid d-flex justify-content-between align-items-center">
         {/* ===== Left Side (Logo / p1) ===== */}
         <Link className="navbar-brand d-flex align-items-center p1 m-0" to="/">
